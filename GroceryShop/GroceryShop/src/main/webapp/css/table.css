@@ -1,0 +1,87 @@
+body {
+	justify-content: center;
+	font-family: sans-serif;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 50px 0;
+	background-color: white;
+}
+
+td {
+	padding: 10px 0;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	text-align: center;
+	font-weight: bold;
+	color: red;
+	font-size: 50px;
+}
+
+p {
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+form {
+	width: 100%;
+}
+
+input[type=submit] {
+	background-color: red;
+	border: 3px solid black;
+	color: white;
+	padding: 5px 5px;
+	margin: 10px 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	cursor: pointer;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 20px;
+}
+
+.button {
+	background-color: red;
+	border: 3px solid black;
+	color: white;
+	padding: 5px 5px;
+	margin: 10px 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	cursor: pointer;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 20px;
+}
+
+table, tr, td, th {
+	font-size: 20px;
+	font-weight: bolder;
+	color: red;
+	font-family: sans-serif;
+}
+
+table input {
+	width: 100%;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+
+td, th {
+	padding: 15px;
+}
+
+table, td, th {
+	border: 3px solid black;
+}
